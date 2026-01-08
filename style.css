@@ -147,3 +147,49 @@ text-align: center;
 .note-card h3{
     padding: 16px 0px;
 }
+
+
+/* Brain Section Style */
+
+#brain-section{
+    margin: 120px 0px;
+}
+
+.brain-content{
+    display: flex;
+    align-items: center;
+    gap:60px;
+}
+
+.brain-info{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.brain-info h4 {
+     color: #30B868;
+     text-transform: uppercase;
+     font-weight: 500;
+}
+.brain-info h2 {
+    font-size: 48px;
+     font-weight: 700;
+}
+
+.brain-info p {
+    color:#627382;
+}
+
+.brain-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    font-weight: 500;
+}
+
+.brain-info ul li{
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
