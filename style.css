@@ -32,6 +32,12 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+   transition:all 0.3s;
+}
+
+button:hover{
+  background-color: #269d57;
+ 
 }
 
 /* Header Styles */
@@ -98,6 +104,12 @@ header ul li a {
 .banner .btn {
   background-color: transparent;
   border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.banner .btn:hover {
+  color: #30b868;
+  border: 1px solid #30b868;
 }
 
 /* Note Section */
