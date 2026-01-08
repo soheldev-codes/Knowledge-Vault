@@ -212,3 +212,32 @@ header ul li a {
  .think-more-content p{
   color: #627382;
 }
+
+
+/* Footer Styles   */
+
+footer{
+  background-color:  rgba(0, 25, 49, 1);
+}
+
+.footer{
+  color: #FFF;
+  padding-top: 120px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  
+}
+
+.sociallink i{
+  font-size:20px;
+  margin-top: 10px;
+  margin-right:16px;
+}
+
+.copyright{
+  text-align: center;
+  padding: 30px 0px;
+}
