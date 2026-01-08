@@ -23,14 +23,12 @@ body {
 
 
 /* Header Styles */
-header{
-    padding: 20px 0;
-}
 
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
 
 header .logo img{
@@ -98,4 +96,54 @@ header button{
 .banner .btn{
     background-color: transparent;
     border: 1px solid #fff;
+}
+
+
+
+/* Note Section */  
+.note-section{
+    padding-top:50px;
+}
+.note-info{
+    text-align: center;
+}
+.note-info h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.note-info p{
+    margin-top: 16px;
+    color:#627382;
+}
+
+
+.notes-cards{
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    gap:24px
+    
+}
+
+.note-card{
+    
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+border-radius: 8px;
+padding: 20px;
+
+text-align: center;
+
+}
+
+.note-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding:10px;
+    background: rgba(249, 85, 85, 1);;
+}
+
+.note-card h3{
+    padding: 16px 0px;
 }
