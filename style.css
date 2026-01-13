@@ -12,11 +12,17 @@ body {
   font-optical-sizing: auto;
 }
 
+
+
 /* Shared Style  */
 
 .container {
   max-width: 1360px;
   margin: auto;
+}
+
+img{
+  width: 100%;
 }
 
 button {
@@ -284,3 +290,36 @@ footer{
   text-align: center;
   padding: 30px 0px;
 }
+
+
+/* Mobaile Responsive Styles  */
+
+@media screen and (max-width:576px){
+
+  header nav {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notes-cards {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+}
+}
+
+
+
+@media screen and (min-width:576px) and   (max-width:992px){
+
+  .notes-cards {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr; 
+  
+  }
+
+
+
+
+  }
